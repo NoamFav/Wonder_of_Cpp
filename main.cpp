@@ -18,5 +18,8 @@ int main() {
     Person person("John Doe", 30);
     person.introduce();
 
+    std::cout << "sizeof(Person) = " << sizeof(Person) << std::endl;
+    std::cout << "cpp is really weird" << std::endl;
+
     return 0;
 }
