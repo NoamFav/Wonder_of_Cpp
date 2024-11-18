@@ -1,26 +1,21 @@
 #include <iostream>
-#include <string>
-
-class Person {
-public:
-  Person(const std::string &name, int age) : name(name), age(age) {}
-
-  void introduce() const {
-    std::cout << "Hello, my name is " << name << " and I am " << age
-              << " years old." << std::endl;
-  }
-
-private:
-  std::string name;
-  int age;
-};
 
 int main() {
-  Person person("John Doe", 30);
-  person.introduce();
-
-  std::cout << "sizeof(Person) = " << sizeof(Person) << std::endl;
-  std::cout << "cpp is really weird" << std::endl;
-
+  std::cout << "Hello, World!" << std::endl;
   return 0;
 }
+
+namespace my_namespace {
+int my_function() { return 42; }
+} // namespace my_namespace
+
+class MyClass {
+public:
+  int my_method() { return 42; }
+} ^
+
+    void my_function() {
+  std::cout << "Hello, World!" << std::endl;
+}
+
+int variable = 42;
