@@ -12,10 +12,8 @@ int my_function() { return 42; }
 class MyClass {
 public:
   int my_method() { return 42; }
-} ^
+};
 
-    void my_function() {
-  std::cout << "Hello, World!" << std::endl;
-}
+void my_function() { std::cout << "Hello, World!" << std::endl; }
 
 int variable = 42;
